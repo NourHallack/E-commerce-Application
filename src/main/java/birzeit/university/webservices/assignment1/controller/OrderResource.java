@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/order")
+@RequestMapping("/api/orders")
 public class OrderResource {
 
     private final Logger log = LoggerFactory.getLogger(OrderResource.class);
